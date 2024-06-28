@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259305417805",
+    "project_id": "simulation-center-baku",
+    "storage_bucket": "simulation-center-baku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259305417805:android:bd6b37f1d7dd8a8301c004",
+        "android_client_info": {
+          "package_name": "com.example.simulationcenterbaku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHoiXK9JjXRWr1R80bG_z2MKYXKCTIpBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
