@@ -6,16 +6,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import androidx.appcompat.app.AppCompatActivity;
 
-import kotlin.coroutines.CoroutineContextImplKt;
-
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
-
-    //пытаюсь вспомнить как работать с гитом
-CoroutineContextImplKt
-{
-    git
-}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
