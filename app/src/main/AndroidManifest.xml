@@ -12,22 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimulationCenterBaku">
 
-        <!-- Определение вашего сервиса FirebaseMessagingService -->
-        <service
-            android:name=".MyFirebaseMessagingService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"> <!-- Set to true if you want it to be accessible from other apps -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-</manifest>
+    <!-- Определение вашего сервиса FirebaseMessagingService -->
+    <service
+        android:name=".MyFirebaseMessagingService"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
+
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"> <!-- Set to true if you want it to be accessible from other apps -->
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
+    </manifest>
